@@ -1,0 +1,60 @@
+.addressContainer .row:nth-child(even) {
+  background: #fff3ec;
+}
+
+.addressContainer {
+  width: 50%;
+}
+
+.activeScreen {
+  background: #75320b;
+  width: 45%;
+  height: 7px;
+  border-radius: 5px;
+}
+.non-activeScreen {
+  background: #c7c7c7;
+  width: 45%;
+  height: 7px;
+  border-radius: 5px;
+}
+
+.personal-deatail-each-item {
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.labelContainer {
+  background: #fff3ec;
+  padding: 10px;
+}
+
+.userNameStyle {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.labelName {
+  font-size: 12px;
+}
+.labelValue {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.buttonStyle {
+  margin-right: 5px !important;
+}
+
+.emtyfeild-text {
+  display: flex;
+  margin: auto;
+  font-size: 50px;
+  font-weight: 600;
+  color:#cbc9c5;
+}
